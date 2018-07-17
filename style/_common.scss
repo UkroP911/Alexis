@@ -90,3 +90,14 @@ html,body{
   line-height: 25px;
   text-align: center
 }
+
+@media screen and (max-width: 640px){
+  .section__title{
+    h2{
+      font-size: 40px;
+    }
+  }
+  .section__subtitle{
+    font-size: 16px;
+  }
+}
