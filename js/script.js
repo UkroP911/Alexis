@@ -14,4 +14,5 @@ $(window).resize(function () {
     } else {
         $('.header__nav').show();
     }
+    $('body').removeClass('fixed')
 });
