@@ -3,6 +3,7 @@
   height: 774px;
   background: url("../img/hero-bg.png") no-repeat center center;
   background-size: cover;
+  transition: all .2s ease;
 }
 .hero__content{
   display: flex;
@@ -64,6 +65,9 @@
 }
 
 @media screen and (max-width: 768px){
+  .hero{
+    height: 560px;
+  }
   .hero__title {
     h1{
       font-size: 55px;
@@ -72,5 +76,29 @@
   }
   .features__text{
     font-size: 16px;
+  }
+}
+@media screen and (max-width: 640px){
+  .hero__title {
+    h1{
+      font-size: 35px;
+      line-height: 45px;
+    }
+  }
+  .features__text{
+    font-size: 14px;
+  }
+  .hero__features{
+    flex-direction: column;
+    align-items: center;
+  }
+  .features__item{
+    display: flex;
+    align-items: center;
+    margin: 0 0 15px 0;
+    min-width: 235px;
+  }
+  .features__icon{
+    margin: 0 10px 0 0;
   }
 }
