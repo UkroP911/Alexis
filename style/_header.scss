@@ -1,9 +1,7 @@
 .header{
   background: #ffffff;
   height: 75px;
-}
-.header_wrapper{
-  //padding-right: 0;
+  overflow: hidden;
 }
 .header__content{
   display: flex;
@@ -22,6 +20,7 @@
 }
 .header__nav{
   background: #ffffff;
+  z-index: 999;
 }
 .nav__list{
   list-style: none;
@@ -42,7 +41,7 @@
   text-align: center;
   transition: all .2s ease;
   &:hover,&:focus{
-    background: #272727;
+    background: #575757;
     color: #ffffff;
   }
 }
@@ -74,9 +73,6 @@
 }
 
 @media screen and (max-width: 992px){
-  .header__content{
-    //align-items: flex-start;
-  }
   .header__nav{
     display: none;
     position: fixed;
@@ -90,6 +86,9 @@
   }
   .nav__list-item{
     width: 100%;
+  }
+  .nav__list-link{
+    padding: 15px;
   }
   .mobile-nav-btn{
     display: block;
