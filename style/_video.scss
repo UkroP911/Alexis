@@ -2,6 +2,7 @@
   background: url("../img/video-bg.png") no-repeat center center;
   background-size: cover;
   height: 500px;
+  transition: all .2s ease;
 }
 .video__content{
   display: flex;
@@ -15,6 +16,7 @@
   font-size: 30px;
   font-weight: 400;
   color: #ffffff;
+  text-align: center;
 }
 .video__play{
 
@@ -31,4 +33,10 @@
   font-size: 15px;
   font-weight: 400;
   color: #ffffff;
+}
+
+@media screen and (max-width: 768px){
+  .video{
+    height: 300px;
+  }
 }
