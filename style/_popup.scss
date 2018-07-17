@@ -1,0 +1,61 @@
+.popup{
+  display: none;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0, .8);
+  z-index: 999;
+  transition: all .2s ease;
+}
+.popup__close-btn{
+  position: absolute;
+  top: -13px;
+  right: -20px;
+  height: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  z-index: 999;
+  span{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #ffffff;
+    &:first-child{
+      transform: translate(0, 3px) rotate(45deg);
+    }
+    &:last-child{
+      transform: translate(0, 0px) rotate(-45deg);
+    }
+  }
+}
+.popup__video-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 800px;
+  width: 100%;
+}
+.popup__video-wrap{
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  iframe{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border: none;
+  }
+}
+.p-open{
+  display: block;
+  opacity: 1;
+}

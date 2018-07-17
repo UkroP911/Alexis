@@ -15,3 +15,16 @@ $(window).resize(function () {
         $('.header__nav').show();
     }
 });
+
+function popupOpen() {
+    $('.popup').addClass('p-open');
+    $('body').addClass('fixed');
+}
+function popupClose() {
+    $('.popup').removeClass('p-open');
+    $('body').removeClass('fixed')
+}
+
+$('.js-open-video').click(popupOpen);
+$('.js-close-video').click(popupClose);
+$('.js-overlay').click(popupClose);
