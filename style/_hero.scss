@@ -1,0 +1,76 @@
+.hero{
+  //background: #000;
+  height: 774px;
+  background: url("../img/hero-bg.png") no-repeat center center;
+  background-size: cover;
+}
+.hero__content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.hero__title{
+  max-width: 834px;
+  width: 100%;
+  margin-bottom: 41px;
+  text-align: center;
+  h1{
+    padding: 0;
+    margin: 0;
+    font-family: 'libre', serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 85px;
+    color: #ffffff;
+    transition: all .2s ease;
+  }
+}
+.hero__button{
+  margin-bottom: 80px;
+}
+.hero__features{
+  display: flex;
+  justify-content: space-between;
+  max-width: 750px;
+  width: 100%;
+}
+.features__item{
+
+}
+.features__item_price{
+  margin-right: 39px;
+}
+.features__item_time{
+
+}
+.features__icon{
+  margin: 0 auto 37px;
+}
+.features__text{
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #38c695;
+  text-align: center;
+  transition: all .2s ease;
+}
+.features__text_purple{
+  color: #b27cf5;
+}
+.features__text_orange{
+  color: #feb960;
+}
+
+@media screen and (max-width: 768px){
+  .hero__title {
+    h1{
+      font-size: 55px;
+      line-height: 75px;
+    }
+  }
+  .features__text{
+    font-size: 16px;
+  }
+}

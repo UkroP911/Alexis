@@ -1,0 +1,35 @@
+.focus{
+  padding: 150px 0;
+  background: #f7f7f7;
+  position: relative;
+  &:before{
+    content: '02';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    font-size: 274px;
+    font-weight: 700;
+    color: #e0e0e0;
+    opacity: 0.3;
+  }
+}
+.focus__content{
+  position: relative;
+  z-index: 1;
+}
+.section__title_focus{
+  margin-bottom: 39px;
+  text-align: center;
+}
+.section__subtitle_focus{
+  margin-bottom: 77px;
+  text-align: center;
+}
+.focus__services{
+  display: flex;
+  justify-content: space-between;
+}
+.tile-item_focus{
+  padding: 67px 0;
+}

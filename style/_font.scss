@@ -1,0 +1,204 @@
+/* Wisdom Script */
+@font-face {
+  font-family: 'wisdom';
+  src: url('../font/wisdomscriptaj.woff2') format('woff2'),
+  url('../font/wisdomscriptaj.woff') format('woff'),
+  url('../font/wisdomscriptaj.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Poppins */
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-thin.woff2') format('woff2'),
+  url('../font/poppins-thin.woff') format('woff'),
+  url('../font/poppins-thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-thinitalic.woff2') format('woff2'),
+  url('../font/poppins-thinitalic.woff') format('woff'),
+  url('../font/poppins-thinitalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-extralight.woff2') format('woff2'),
+  url('../font/poppins-extralight.woff') format('woff'),
+  url('../font/poppins-extralight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-extralightitalic.woff2') format('woff2'),
+  url('../font/poppins-extralightitalic.woff') format('woff'),
+  url('../font/poppins-extralightitalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-light.woff2') format('woff2'),
+  url('../font/poppins-light.woff') format('woff'),
+  url('../font/poppins-light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-lightitalic.woff2') format('woff2'),
+  url('../font/poppins-lightitalic.woff') format('woff'),
+  url('../font/poppins-lightitalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-italic.woff2') format('woff2'),
+  url('../font/poppins-italic.woff') format('woff'),
+  url('../font/poppins-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-regular.woff2') format('woff2'),
+  url('../font/poppins-regular.woff') format('woff'),
+  url('../font/poppins-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-medium.woff2') format('woff2'),
+  url('../font/poppins-medium.woff') format('woff'),
+  url('../font/poppins-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-mediumitalic.woff2') format('woff2'),
+  url('../font/poppins-mediumitalic.woff') format('woff'),
+  url('../font/poppins-mediumitalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-semibold.woff2') format('woff2'),
+  url('../font/poppins-semibold.woff') format('woff'),
+  url('../font/poppins-semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-semibolditalic.woff2') format('woff2'),
+  url('../font/poppins-semibolditalic.woff') format('woff'),
+  url('../font/poppins-semibolditalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-bold.woff2') format('woff2'),
+  url('../font/poppins-bold.woff') format('woff'),
+  url('../font/poppins-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-bolditalic.woff2') format('woff2'),
+  url('../font/poppins-bolditalic.woff') format('woff'),
+  url('../font/poppins-bolditalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-extrabold.woff2') format('woff2'),
+  url('../font/poppins-extrabold.woff') format('woff'),
+  url('../font/poppins-extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-extrabolditalic.woff2') format('woff2'),
+  url('../font/poppins-extrabolditalic.woff') format('woff'),
+  url('../font/poppins-extrabolditalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-black.woff2') format('woff2'),
+  url('../font/poppins-black.woff') format('woff'),
+  url('../font/poppins-black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../font/poppins-blackitalic.woff2') format('woff2'),
+  url('../font/poppins-blackitalic.woff') format('woff'),
+  url('../font/poppins-blackitalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+/* Libre Baskerville */
+
+@font-face {
+  font-family: 'libre';
+  src: url('../font/librebaskerville-bold.woff2') format('woff2'),
+  url('../font/librebaskerville-bold.woff') format('woff'),
+  url('../font/librebaskerville-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre';
+  src: url('../font/librebaskerville-italic.woff2') format('woff2'),
+  url('../font/librebaskerville-italic.woff') format('woff'),
+  url('../font/librebaskerville-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'libre';
+  src: url('../font/librebaskerville-regular.woff2') format('woff2'),
+  url('../font/librebaskerville-regular.woff') format('woff'),
+  url('../font/librebaskerville-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
