@@ -671,7 +671,9 @@ html, body {
 .focus {
   padding: 150px 0;
   background: #f7f7f7;
-  position: relative; }
+  position: relative;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease; }
   .focus:before {
     content: '02';
     position: absolute;
@@ -679,7 +681,7 @@ html, body {
     top: 0;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    font-size: 274px;
+    font-size: 264px;
     font-weight: 700;
     color: #e0e0e0;
     opacity: 0.3; }
@@ -706,6 +708,35 @@ html, body {
 
 .tile-item_focus {
   padding: 67px 0; }
+
+@media screen and (max-width: 992px) {
+  .focus__services {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .tile-item_focus {
+    width: 49%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px; } }
+
+@media screen and (max-width: 768px) {
+  .focus {
+    padding: 50px 0; } }
+
+@media screen and (max-width: 640px) {
+  .focus__services {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .tile-item_focus {
+    width: 100%; } }
 
 .video {
   background: url("../img/video-bg.png") no-repeat center center;
