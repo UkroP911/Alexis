@@ -79,11 +79,17 @@
   }
 }
 @media screen and (max-width: 640px){
+  .hero{
+    height: 493px;
+  }
   .hero__title {
     h1{
       font-size: 35px;
       line-height: 45px;
     }
+  }
+  .hero__button{
+    margin-bottom: 30px;
   }
   .features__text{
     font-size: 14px;

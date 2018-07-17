@@ -52,6 +52,12 @@
   }
 }
 @media screen and (max-width: 640px){
+  .section__title_focus{
+    margin-bottom: 15px;
+  }
+  .section__subtitle_focus{
+    margin-bottom: 47px;
+  }
   .focus__services{
     flex-direction: column;
     align-items: center;
