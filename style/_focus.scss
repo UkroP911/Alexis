@@ -2,13 +2,14 @@
   padding: 150px 0;
   background: #f7f7f7;
   position: relative;
+  transition: all .2s ease;
   &:before{
     content: '02';
     position: absolute;
     left: 50%;
     top: 0;
     transform: translateX(-50%);
-    font-size: 274px;
+    font-size: 264px;
     font-weight: 700;
     color: #e0e0e0;
     opacity: 0.3;
@@ -32,4 +33,31 @@
 }
 .tile-item_focus{
   padding: 67px 0;
+}
+
+@media screen and (max-width: 992px){
+  .focus__services{
+    flex-wrap: wrap;
+  }
+  .tile-item_focus{
+    width: 49%;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 768px){
+  .focus{
+    padding: 50px 0;
+  }
+}
+@media screen and (max-width: 640px){
+  .focus__services{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tile-item_focus{
+    width: 100%;
+  }
 }
