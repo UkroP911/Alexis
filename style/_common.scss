@@ -8,6 +8,9 @@ html,body{
   font-style: normal;
   box-sizing: border-box;
 }
+.fixed{
+  overflow: hidden;
+}
 .wrapper{
   max-width: 1170px;
   width: 100%;
